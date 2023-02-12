@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.navbar {
+    height: 20px;
+    width: 100%;
+
+}
+
+.home nav {
+    /* border: green 1px solid; */
+    display: flex;
+    /* we use align-items to possition the content */
+    align-items: center;
+    /* we use justify content to: */
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0 4px 80px -4px rgba(95, 95, 95, 0.709);
+}
+
+.logo {
+    font-family: Goudy Old Style;
+    font-size: 90px;
+    color: #a99658;
+}
+
+.home nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+
+nav ul li a {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Trebuchet MS;
+}
+
+.home nav ul li a:hover {
+    color: rgb(182, 157, 76);
+    transition: .5s;
+}
+
+.headingImg {
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.home {
+    /* background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url('/imgs/backgroud1.png'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/imgs/gifBackGround.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*  /////////////////////////////////////////////////// */
+/* main section*/
+.homeMain {
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/imgs/bg8.png');
+    border: #a99658 2px solid;
+    border-radius: 40px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* filter: brightness(60%); */
+}
+
+.homeMain h2 {
+
+    /* justify-content: center; */
+    color: #c8b26b;
+    float: left;
+    margin: 20px;
+    filter: brightness(90%);
+    -webkit-background-size: cover;
+    -moz-background-siz: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeMain p {
+    text-align: left;
+    float: left;
+    margin: 20px;
+    color: rgb(173, 173, 173);
+    font-size: 23px;
+}
+
+.homeMain table {
+    display: flex;
+    float: left;
+    text-align: left;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: inline-block;
+    margin: 20px;
+    color: rgb(173, 173, 173);
+    font-size: 130%;
+    width: 100%;
+}
+
+.homeMain table tr td {
+    width: 10%;
+    padding: 15px;
+}
+
+.Td {
+    color: rgb(255, 255, 255);
+    color: #c8b26b;
+
+}
