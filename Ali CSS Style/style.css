@@ -59,7 +59,7 @@ nav ul li a {
 
 .home {
     /* background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url('/imgs/backgroud1.png'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/imgs/gifBackGround.gif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/gifBackGround.gif');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -78,7 +78,7 @@ nav ul li a {
     margin-bottom: 10%;
     width: 90%;
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/imgs/bg8.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../imgs/bg8.png');
     border: #a99658 2px solid;
     border-radius: 40px;
     -webkit-background-size: cover;
