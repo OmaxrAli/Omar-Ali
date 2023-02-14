@@ -163,3 +163,28 @@ nav ul li a {
     width: 45px;
     border-radius: 50%;
 }
+.homeMain a button{
+    border: #a99658 2px solid;
+    margin: 3%;
+    width: 100px;
+    height: 40px;
+    background-image: url('../imgs/bg8.png');
+    border: #a99658 2px solid;
+    border-radius: 40px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #a99658;
+
+}
+.homeMain a button:hover{
+    color: rgb(173, 173, 173);
+    border: rgb(173, 173, 173) 2px solid;
+    transition: .5s;
+}
+.Footer ul li a img:hover{
+    filter: brightness(85%);
+    transition: .7s;
+
+}
