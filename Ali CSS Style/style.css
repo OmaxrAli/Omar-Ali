@@ -135,7 +135,6 @@ nav ul li a {
     color: #c8b26b;
 
 }
-<<<<<<< HEAD
 .Footer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../imgs/bg8.png');
     border: #a99658 2px solid;
@@ -161,8 +160,6 @@ nav ul li a {
 }
 .Footer ul li a img{
     margin-top: 4%;
-    width: 45%;
+    width: 45px;
     border-radius: 50%;
 }
-=======
->>>>>>> 31f3d5bcf8b50a0541dab7624a21efd549df7d3b
