@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 
-
 }
 
 .navbar {
@@ -26,7 +25,7 @@
 
 .logo {
     font-family: Goudy Old Style;
-    font-size: 90px;
+    font-size: 500%;
     color: #a99658;
 }
 
@@ -59,7 +58,7 @@ nav ul li a {
 
 .home {
     /* background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url('/imgs/backgroud1.png'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/imgs/gifBackGround.gif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/gifBackGround.gif');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -78,7 +77,7 @@ nav ul li a {
     margin-bottom: 10%;
     width: 90%;
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/imgs/bg8.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../imgs/bg8.png');
     border: #a99658 2px solid;
     border-radius: 40px;
     -webkit-background-size: cover;
@@ -115,7 +114,6 @@ nav ul li a {
 
 .homeMain table {
     display: flex;
-    float: left;
     text-align: left;
     justify-content: center;
     justify-items: center;
@@ -136,4 +134,32 @@ nav ul li a {
     color: rgb(255, 255, 255);
     color: #c8b26b;
 
+}
+.Footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../imgs/bg8.png');
+    border: #a99658 2px solid;
+    border-radius: 40px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 40px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.Footer ul{
+    width: 100%;
+    height: inherit;
+}
+.Footer ul li{
+    width: 10%;
+    height: inherit;
+    display:inline-flex;
+
+}
+.Footer ul li a img{
+    margin-top: 4%;
+    width: 45%;
+    border-radius: 50%;
 }
